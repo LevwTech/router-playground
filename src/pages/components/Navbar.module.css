@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  align-items: center;
+  color: cyan;
+  background-color: darkblue;
+}
+.active {
+  color: green;
+  background-color: white;
+}

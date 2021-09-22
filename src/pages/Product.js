@@ -11,6 +11,9 @@ function Product() {
         <Link to="/products/course">
           <li>Course</li>
         </Link>
+        <Link to="/products/proteinshake">
+          <li>Protein Shake</li>
+        </Link>
       </ul>
     </section>
   );

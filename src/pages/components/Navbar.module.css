@@ -18,4 +18,8 @@ li {
   text-align: center;
   list-style: none;
   margin: 0.5rem;
+  text-decoration: "none";
+}
+li:hover {
+  background-color: rgb(7, 177, 177);
 }

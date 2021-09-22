@@ -21,6 +21,9 @@ function App() {
         <Route path="/products/:id">
           <ProductDetails />
         </Route>
+        <Route>
+          <h1>404 Not Found</h1>
+        </Route>
       </Switch>
     </React.Fragment>
   );

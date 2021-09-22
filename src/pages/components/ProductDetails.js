@@ -1,11 +1,13 @@
 import React, { useState } from "react";
-import { useParams, Redirect } from "react-router-dom";
+import { useParams, Redirect, Prompt } from "react-router-dom";
 function ProductDetails() {
   const paramsObj = useParams();
   const Products = ["book", "course", "proteinshake"];
   const [goToHome, setGoToHome] = useState(false);
+
   return (
     <React.Fragment>
+      <Prompt when={true} message="Are you sure you want to leave?" />
       {Products.includes(paramsObj.id) ? (
         <h1>{paramsObj.id}</h1>
       ) : (
